@@ -1,0 +1,42 @@
+/* Conteúdo para: gui/assets/dark_theme.qss */
+
+QMainWindow {
+    background-color: #2E3B4E; /* Um azul escuro/cinza para o fundo */
+    color: #E0E0E0; /* Texto claro */
+}
+
+QWidget { /* Estilo geral para outros widgets, se não especificado */
+    background-color: #2E3B4E;
+    color: #E0E0E0;
+}
+
+QPushButton {
+    background-color: #4A5D7E; /* Um azul um pouco mais claro para botões */
+    color: #FFFFFF; /* Texto branco para botões */
+    border: 1px solid #5C7299; /* Borda sutil */
+    padding: 8px 15px; /* Espaçamento interno */
+    min-height: 20px; /* Altura mínima */
+    border-radius: 4px; /* Cantos arredondados */
+}
+
+QPushButton:hover {
+    background-color: #5C7299; /* Cor ao passar o mouse */
+}
+
+QPushButton:pressed {
+    background-color: #3E4E68; /* Cor ao clicar */
+}
+
+QTextEdit { /* Para nossa área de log */
+    background-color: #252E3F; /* Fundo bem escuro para o log */
+    color: #B0B0B0; /* Texto cinza claro para o log */
+    border: 1px solid #4A5D7E;
+    border-radius: 4px;
+}
+
+QLabel { /* Para qualquer texto/rótulo na tela */
+    color: #E0E0E0;
+    padding: 2px;
+}
+
+/* Você pode adicionar mais estilos para outros componentes (QLineEdit, QComboBox, etc.) aqui */
